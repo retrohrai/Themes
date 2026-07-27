@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "retro-v0.5.0",
+  "name": "Retro v0.5.0",
+  "author": "RetroHrai!",
+  "description": "Animated system-collection backgrounds and console folder icons for the major platforms.",
+  "version": 1,
+  "contains": [
+    "BACKGROUNDS",
+    "ICONS"
+  ],
+  "settingsPreset": {
+    "schema": 1,
+    "global": {
+      "enablePlatformBrowser": true,
+      "platformBrowserViewMode": "Grid",
+      "platformGridColumns": 4,
+      "platformCardShowBackground": false,
+      "platformGridCardShape": "Square",
+      "platformCardForeground": "Icon",
+      "platformGridAnimateActiveCard": true,
+      "platformGridShowCardOutline": true
+    }
+  },
+  "backgrounds": {
+    "global": "backgrounds/global.gif",
+    "platforms": {
+      "favorites_collection": "backgrounds/favorites.gif",
+      "recent_collection": "backgrounds/recent.gif",
+      "collections_platform": "backgrounds/collections.gif",
+      "all_collection": "backgrounds/all-games.gif"
+    }
+  },
+  "icons": {
+    "platforms": {
+      "favorites_collection": "icons/collections/favorites.png",
+      "recent_collection": "icons/collections/recent.png",
+      "collections_platform": "icons/collections/collections.png",
+      "all_collection": "icons/collections/all-games.png",
+      "nes": "icons/platforms/nes.png",
+      "snes": "icons/platforms/snes.png",
+      "n64": "icons/platforms/n64.png",
+      "gc": "icons/platforms/gc.png",
+      "gb": "icons/platforms/gb.png",
+      "gbc": "icons/platforms/gbc.png",
+      "gba": "icons/platforms/gba.png",
+      "nds": "icons/platforms/nds.png",
+      "3ds": "icons/platforms/3ds.png",
+      "switch": "icons/platforms/switch.png",
+      "wii": "icons/platforms/wii.png",
+      "wiiu": "icons/platforms/wiiu.png",
+      "virtualboy": "icons/platforms/virtualboy.png",
+      "psx": "icons/platforms/psx.png",
+      "ps2": "icons/platforms/ps2.png",
+      "ps3": "icons/platforms/ps3.png",
+      "psp": "icons/platforms/psp.png",
+      "vita": "icons/platforms/vita.png",
+      "genesis": "icons/platforms/genesis.png",
+      "saturn": "icons/platforms/saturn.png",
+      "dreamcast": "icons/platforms/dreamcast.png",
+      "gamegear": "icons/platforms/gamegear.png",
+      "master": "icons/platforms/master.png",
+      "windows": "icons/platforms/windows.png"
+    }
+  },
+  "credits": [
+    {
+      "asset": "Platform / console folder icons",
+      "author": "Spectre Frontend",
+      "url": "https://spectre-frontend.itch.io/console-folder-icons"
+    },
+    {
+      "asset": "Collection label font (Splatink)",
+      "author": "Mâns Grebäck",
+      "url": "https://www.dafont.com/splatink-2.font"
+    }
+  ]
+}

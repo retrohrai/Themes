@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "nature-v0.4.0",
+  "name": "Nature v0.4.0",
+  "author": "RetroHrai!",
+  "description": "Lush animated nature backgrounds and console logos for the major platforms and system collections.",
+  "version": 1,
+  "contains": [
+    "BACKGROUNDS",
+    "LOGOS"
+  ],
+  "settingsPreset": {
+    "schema": 1,
+    "global": {
+      "enablePlatformBrowser": true,
+      "platformBrowserViewMode": "Grid",
+      "platformGridColumns": 4,
+      "platformGridCardShape": "Landscape",
+      "platformCardShowBackground": true,
+      "platformCardForeground": "Logo"
+    }
+  },
+  "backgrounds": {
+    "platforms": {
+      "favorites_collection": "backgrounds/favorites.gif",
+      "recent_collection": "backgrounds/recent.gif",
+      "collections_platform": "backgrounds/collections.gif",
+      "all_collection": "backgrounds/all-games.gif",
+      "nes": "backgrounds/nes.gif",
+      "snes": "backgrounds/snes.gif",
+      "n64": "backgrounds/n64.gif",
+      "gc": "backgrounds/gc.gif",
+      "gba": "backgrounds/gba.gif",
+      "nds": "backgrounds/nds.gif",
+      "3ds": "backgrounds/3ds.webp",
+      "switch": "backgrounds/switch.gif",
+      "wii": "backgrounds/wii.gif",
+      "psx": "backgrounds/psx.gif",
+      "ps2": "backgrounds/ps2.gif",
+      "psp": "backgrounds/psp.gif",
+      "vita": "backgrounds/vita.gif",
+      "genesis": "backgrounds/genesis.gif",
+      "dreamcast": "backgrounds/dreamcast.gif",
+      "mame": "backgrounds/mame.gif",
+      "windows": "backgrounds/windows.gif",
+      "android": "backgrounds/android.gif"
+    }
+  },
+  "logos": {
+    "platforms": {
+      "nes": "logos/nes.png",
+      "snes": "logos/snes.png",
+      "n64": "logos/n64.png",
+      "gc": "logos/gc.png",
+      "gba": "logos/gba.png",
+      "nds": "logos/nds.png",
+      "3ds": "logos/3ds.png",
+      "switch": "logos/switch.png",
+      "wii": "logos/wii.png",
+      "psx": "logos/psx.png",
+      "ps2": "logos/ps2.png",
+      "psp": "logos/psp.png",
+      "vita": "logos/vita.png",
+      "genesis": "logos/genesis.png",
+      "dreamcast": "logos/dreamcast.png",
+      "mame": "logos/mame.png",
+      "windows": "logos/windows.png",
+      "android": "logos/android.png"
+    }
+  },
+  "credits": [
+    {
+      "asset": "Most platform / collection backgrounds (GIFs)",
+      "author": "Anas Abdin",
+      "url": "https://x.com/AnasAbdin"
+    },
+    {
+      "asset": "Console logos (Console Logos Professionally Redrawn + Official Versions)",
+      "author": "Dan Patrick",
+      "url": "https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions"
+    }
+  ]
+}
