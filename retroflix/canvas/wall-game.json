@@ -1,0 +1,32 @@
+{
+  "schema": 4,
+  "elements": [
+    {
+      "kind": "achievements",
+      "column": 36,
+      "row": 18,
+      "boxColumns": 12,
+      "boxRows": 6
+    },
+    {
+      "kind": "details",
+      "column": 0,
+      "row": 13,
+      "boxColumns": 26,
+      "boxRows": 11
+    },
+    {
+      "kind": "gameLogo",
+      "column": 0,
+      "row": 1,
+      "boxColumns": 23,
+      "boxRows": 11,
+      "align": "center"
+    }
+  ],
+  "shadow": {
+    "edge": "start",
+    "extent": 25,
+    "strength": "medium"
+  }
+}

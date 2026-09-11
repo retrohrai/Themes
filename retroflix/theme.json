@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "id": "retroflix",
+  "name": "Retroflix",
+  "author": "GiuPhoenix",
+  "description": "Theme inspired by Netflix and Smart TV interfaces.",
+  "version": 1,
+  "contains": [
+    "BACKGROUNDS",
+    "ICONS",
+    "LOGOS",
+    "OVERLAYS"
+  ],
+  "settingsPreset": {
+    "schema": 1,
+    "global": {
+      "platformBrowserViewMode": "Grid",
+      "platformGridColumns": 3,
+      "platformGridCardShape": "Square",
+      "platformGridOrientation": "Horizontal",
+      "platformCardShowBackground": false,
+      "showPlatformBackground": true,
+      "platformCardForeground": "Icon",
+      "platformSlidesForeground": "Logo",
+      "showPlatformLastPlayed": false,
+      "showPlatformGamePreview": false,
+      "showPlatformGameCount": false,
+      "showPlatformRandomButton": false,
+      "gameViewMode": "Grid",
+      "showGameCounter": true,
+      "titleOverflowMode": "Scroll",
+      "gridDetailPaneMode": "Off",
+      "gridCardSizeDp": 90.460335,
+      "listCoverSide": "Right",
+      "listNameDisplay": "Title",
+      "listPaneWidth": "Half",
+      "listShowCoverArt": true,
+      "listShowScreenshotVideo": true,
+      "listShowLogo": true,
+      "gridPaneShowCover": true,
+      "gridPaneShowScreenshotVideo": false,
+      "gridPaneShowLogo": false,
+      "appFont": "System",
+      "adaptChromeToBackground": false,
+      "appTheme": "Oled",
+      "accentStyle": "Classic",
+      "appAccent": "Blue",
+      "backgroundStyle": "PlatformBackground",
+      "secondaryBackgroundUsesPrimary": false,
+      "secondaryBackgroundStyle": "CustomWallpaper",
+      "backgroundBlurEnabled": false,
+      "backgroundBlurRadiusDp": 3.0,
+      "backgroundDimmingEnabled": false,
+      "backgroundDimmingAmount": 0.25,
+      "enablePlatformBrowser": true,
+      "platformGridAnimateActiveCard": false,
+      "platformGridShowCardOutline": true,
+      "carouselVerticalAlignment": "Top",
+      "carouselHorizontalAlignment": "Left",
+      "carouselTitlePosition": "Below",
+      "carouselTitleAnchor": "NearCover",
+      "carouselHeightBudgetRatio": 0.6455921,
+      "carouselFocusScale": 1.3566883,
+      "carouselReverseOrderWhenRightAligned": false,
+      "carouselNameDisplay": "Logo",
+      "carouselTitleStyle": "Plain",
+      "carouselMetadataFields": "Description,Genre,ReleaseDate,Developer,Publisher",
+      "carouselShowCardOutline": true,
+      "carouselAnimateActiveCard": false,
+      "carouselBalancedLogo": false,
+      "carouselMetadataFirst": false,
+      "carouselShowAchievements": true,
+      "carouselTitleReadabilityShadingEnabled": true,
+      "carouselTitleReadabilityShadingStrength": "Strong",
+      "gridTitleDisplay": "Off",
+      "gridMetadataFields": "Description,Genre,ReleaseDate,Developer,Publisher",
+      "gridShowCardOutline": true,
+      "gridAnimateActiveCard": false,
+      "listMetadataFields": "Description,Genre,ReleaseDate,Developer,Publisher",
+      "listShowCardOutline": true,
+      "listAnimateActiveCard": true,
+      "listTitleReadabilityShadingEnabled": false,
+      "listTitleReadabilityShadingStrength": "Strong",
+      "platformGridAnimateAllBackgrounds": false,
+      "retroCrtBarrel": 0.0,
+      "platformBackgroundFallback": "SystemWallpaper",
+      "backgroundBlurTargets": "platform_background,custom_wallpaper,system_wallpaper,fanart,screenshot,video",
+      "backgroundDimmingTargets": "platform_background,custom_wallpaper,system_wallpaper,fanart,screenshot,video",
+      "useScreenshotAsBackground": true,
+      "useFanartAsBackground": true,
+      "useVideoAsBackground": true,
+      "backgroundMediaPriority": "video,fanart,screenshot",
+      "secondaryUseScreenshotAsBackground": false,
+      "secondaryUseFanartAsBackground": false,
+      "secondaryUseVideoAsBackground": false,
+      "secondaryBackgroundMediaPriority": "video,fanart,screenshot"
+    }
+  },
+  "canvas": {
+    "primary": "canvas/primary.json",
+    "wall": "canvas/wall.json",
+    "wallGame": "canvas/wall-game.json"
+  },
+  "wallpaper": {
+    "secondary": "wallpaper/secondary.png"
+  },
+  "backgrounds": {
+    "platforms": {
+      "3do": "backgrounds/3do.jpeg",
+      "3ds": "backgrounds/3ds.jpeg",
+      "all_collection": "backgrounds/all_collection.jpeg",
+      "amiga": "backgrounds/amiga.jpeg",
+      "android": "backgrounds/android.jpeg",
+      "arduboy": "backgrounds/arduboy.jpeg",
+      "atari2600": "backgrounds/atari2600.jpeg",
+      "atari5200": "backgrounds/atari5200.jpeg",
+      "atari7800": "backgrounds/atari7800.jpeg",
+      "atomiswave": "backgrounds/atomiswave.jpeg",
+      "c64": "backgrounds/c64.jpeg",
+      "coleco": "backgrounds/coleco.jpeg",
+      "collections_platform": "backgrounds/collections_platform.jpeg",
+      "cpc": "backgrounds/cpc.jpeg",
+      "cps1": "backgrounds/cps1.jpeg",
+      "cps2": "backgrounds/cps2.jpeg",
+      "cps3": "backgrounds/cps3.jpeg",
+      "doom": "backgrounds/doom.jpeg",
+      "dos": "backgrounds/dos.jpeg",
+      "dreamcast": "backgrounds/dreamcast.jpeg",
+      "favorites_collection": "backgrounds/favorites_collection.jpeg",
+      "fbneo": "backgrounds/fbneo.jpeg",
+      "fds": "backgrounds/fds.jpeg",
+      "gamegear": "backgrounds/gamegear.jpeg",
+      "gb": "backgrounds/gb.jpeg",
+      "gba": "backgrounds/gba.jpeg",
+      "gbc": "backgrounds/gbc.jpeg",
+      "gc": "backgrounds/gc.jpeg",
+      "genesis": "backgrounds/genesis.jpeg",
+      "gw": "backgrounds/gw.jpeg",
+      "j2me": "backgrounds/j2me.jpeg",
+      "jaguar": "backgrounds/jaguar.jpeg",
+      "jaguarcd": "backgrounds/jaguarcd.jpg",
+      "lynx": "backgrounds/lynx.jpeg",
+      "mame": "backgrounds/mame.jpeg",
+      "master": "backgrounds/master.jpeg",
+      "megaduck": "backgrounds/megaduck.jpeg",
+      "moonlight": "backgrounds/moonlight.jpeg",
+      "msx": "backgrounds/msx.jpeg",
+      "n64": "backgrounds/n64.jpg",
+      "naomi": "backgrounds/naomi.jpeg",
+      "nds": "backgrounds/nds.jpeg",
+      "neogeo": "backgrounds/neogeo.jpeg",
+      "neogeocd": "backgrounds/neogeocd.jpeg",
+      "nes": "backgrounds/nes.jpeg",
+      "ngp": "backgrounds/ngp.jpeg",
+      "ngpc": "backgrounds/ngpc.jpeg",
+      "pcfx": "backgrounds/pcfx.jpeg",
+      "pico8": "backgrounds/pico8.jpeg",
+      "pokemini": "backgrounds/pokemini.jpeg",
+      "ps2": "backgrounds/ps2.jpeg",
+      "ps3": "backgrounds/ps3.jpeg",
+      "psp": "backgrounds/psp.jpeg",
+      "psx": "backgrounds/psx.jpeg",
+      "recent_collection": "backgrounds/recent_collection.jpeg",
+      "rpgmaker": "backgrounds/rpgmaker.jpeg",
+      "saturn": "backgrounds/saturn.jpeg",
+      "scummvm": "backgrounds/scummvm.jpeg",
+      "sega32x": "backgrounds/sega32x.jpeg",
+      "segacd": "backgrounds/segacd.jpeg",
+      "snes": "backgrounds/snes.jpeg",
+      "steam": "backgrounds/steam.jpeg",
+      "supergrafx": "backgrounds/supergrafx.jpeg",
+      "switch": "backgrounds/switch.jpeg",
+      "tg16": "backgrounds/tg16.jpeg",
+      "tgcd": "backgrounds/tgcd.jpeg",
+      "vectrex": "backgrounds/vectrex.jpeg",
+      "virtualboy": "backgrounds/virtualboy.jpeg",
+      "vita": "backgrounds/vita.jpeg",
+      "wasm4": "backgrounds/wasm4.jpeg",
+      "wii": "backgrounds/wii.jpeg",
+      "wiiu": "backgrounds/wiiu.jpeg",
+      "windows": "backgrounds/windows.jpeg",
+      "ws": "backgrounds/ws.jpeg",
+      "wsc": "backgrounds/wsc.jpeg",
+      "xbox": "backgrounds/xbox.jpeg",
+      "xbox360": "backgrounds/xbox360.jpeg",
+      "zxspectrum": "backgrounds/zxspectrum.jpeg"
+    }
+  },
+  "icons": {
+    "platforms": {
+      "3do": "icons/3do.png",
+      "3ds": "icons/3ds.png",
+      "all_collection": "icons/all_collection.png",
+      "amiga": "icons/amiga.png",
+      "android": "icons/android.png",
+      "arduboy": "icons/arduboy.png",
+      "atari2600": "icons/atari2600.png",
+      "atari5200": "icons/atari5200.png",
+      "atari7800": "icons/atari7800.png",
+      "atarist": "icons/atarist.png",
+      "atomiswave": "icons/atomiswave.png",
+      "c64": "icons/c64.png",
+      "collections_platform": "icons/collections_platform.png",
+      "cpc": "icons/cpc.png",
+      "cps1": "icons/cps1.png",
+      "cps2": "icons/cps2.png",
+      "cps3": "icons/cps3.png",
+      "doom": "icons/doom.png",
+      "dos": "icons/dos.png",
+      "dreamcast": "icons/dreamcast.png",
+      "favorites_collection": "icons/favorites_collection.png",
+      "fbneo": "icons/fbneo.png",
+      "fds": "icons/fds.png",
+      "gamegear": "icons/gamegear.png",
+      "gb": "icons/gb.png",
+      "gba": "icons/gba.png",
+      "gbc": "icons/gbc.png",
+      "gc": "icons/gc.png",
+      "genesis": "icons/genesis.png",
+      "gw": "icons/gw.png",
+      "j2me": "icons/j2me.png",
+      "jaguar": "icons/jaguar.png",
+      "jaguarcd": "icons/jaguarcd.png",
+      "lynx": "icons/lynx.png",
+      "mame": "icons/mame.png",
+      "master": "icons/master.png",
+      "megaduck": "icons/megaduck.png",
+      "moonlight": "icons/moonlight.png",
+      "msx": "icons/msx.png",
+      "n64": "icons/n64.png",
+      "naomi": "icons/naomi.png",
+      "nds": "icons/nds.png",
+      "neogeo": "icons/neogeo.png",
+      "neogeocd": "icons/neogeocd.png",
+      "nes": "icons/nes.png",
+      "ngp": "icons/ngp.png",
+      "ngpc": "icons/ngpc.png",
+      "pcfx": "icons/pcfx.png",
+      "pico8": "icons/pico8.png",
+      "pokemini": "icons/pokemini.png",
+      "ps2": "icons/ps2.png",
+      "ps3": "icons/ps3.png",
+      "psp": "icons/psp.png",
+      "psx": "icons/psx.png",
+      "recent_collection": "icons/recent_collection.png",
+      "rpgmaker": "icons/rpgmaker.png",
+      "saturn": "icons/saturn.png",
+      "scummvm": "icons/scummvm.png",
+      "sega32x": "icons/sega32x.png",
+      "segacd": "icons/segacd.png",
+      "snes": "icons/snes.png",
+      "steam": "icons/steam.png",
+      "supergrafx": "icons/supergrafx.png",
+      "switch": "icons/switch.png",
+      "tg16": "icons/tg16.png",
+      "tgcd": "icons/tgcd.png",
+      "vectrex": "icons/vectrex.png",
+      "virtualboy": "icons/virtualboy.png",
+      "vita": "icons/vita.png",
+      "wasm4": "icons/wasm4.png",
+      "wii": "icons/wii.png",
+      "wiiu": "icons/wiiu.png",
+      "windows": "icons/windows.png",
+      "ws": "icons/ws.png",
+      "wsc": "icons/wsc.png",
+      "xbox": "icons/xbox.png",
+      "xbox360": "icons/xbox360.png",
+      "zxspectrum": "icons/zxspectrum.png"
+    }
+  },
+  "logos": {
+    "platforms": {
+      "3do": "logos/3do.png",
+      "3ds": "logos/3ds.png",
+      "all_collection": "logos/all-games.png",
+      "amiga": "logos/amiga.png",
+      "android": "logos/android.png",
+      "arduboy": "logos/arduboy.png",
+      "atari2600": "logos/atari2600.png",
+      "atari5200": "logos/atari5200.png",
+      "atari7800": "logos/atari7800.png",
+      "atarist": "logos/atarist.png",
+      "atomiswave": "logos/atomiswave.png",
+      "c64": "logos/c64.png",
+      "coleco": "logos/coleco.png",
+      "collections_platform": "logos/collections_platform.png",
+      "cpc": "logos/cpc.png",
+      "cps1": "logos/cps1.png",
+      "cps2": "logos/cps2.png",
+      "cps3": "logos/cps3.png",
+      "doom": "logos/doom.png",
+      "dos": "logos/dos.png",
+      "dreamcast": "logos/dreamcast.png",
+      "favorites_collection": "logos/favorites_collection.png",
+      "fbneo": "logos/fbneo.png",
+      "fds": "logos/fds.png",
+      "gamegear": "logos/gamegear.png",
+      "gb": "logos/gb.png",
+      "gba": "logos/gba.png",
+      "gbc": "logos/gbc.png",
+      "gc": "logos/gc.png",
+      "genesis": "logos/genesis.png",
+      "gw": "logos/gw.png",
+      "j2me": "logos/j2me.png",
+      "jaguar": "logos/jaguar.png",
+      "jaguarcd": "logos/jaguarcd.png",
+      "lynx": "logos/lynx.png",
+      "mame": "logos/mame.png",
+      "master": "logos/master.png",
+      "megaduck": "logos/megaduck.png",
+      "moonlight": "logos/moonlight.png",
+      "msx": "logos/msx.png",
+      "n64": "logos/n64.png",
+      "naomi": "logos/naomi.png",
+      "nds": "logos/nds.png",
+      "neogeo": "logos/neogeo.png",
+      "neogeocd": "logos/neogeocd.png",
+      "nes": "logos/nes.png",
+      "ngp": "logos/ngp.png",
+      "ngpc": "logos/ngpc.png",
+      "pcfx": "logos/pcfx.png",
+      "pico8": "logos/pico8.png",
+      "pokemini": "logos/pokemini.png",
+      "ps2": "logos/ps2.png",
+      "ps3": "logos/ps3.png",
+      "psp": "logos/psp.png",
+      "psx": "logos/psx.png",
+      "recent_collection": "logos/recent_collection.png",
+      "rpgmaker": "logos/rpgmaker.png",
+      "saturn": "logos/saturn.png",
+      "scummvm": "logos/scummvm.png",
+      "sega32x": "logos/sega32x.png",
+      "segacd": "logos/segacd.png",
+      "snes": "logos/snes.png",
+      "steam": "logos/steam.png",
+      "supergrafx": "logos/supergrafx.png",
+      "switch": "logos/switch.png",
+      "tg16": "logos/tg16.png",
+      "tgcd": "logos/tgcd.png",
+      "vectrex": "logos/vectrex.png",
+      "virtualboy": "logos/virtualboy.png",
+      "vita": "logos/vita.png",
+      "wasm4": "logos/wasm4.png",
+      "wii": "logos/wii.png",
+      "wiiu": "logos/wiiu.png",
+      "windows": "logos/windows.png",
+      "ws": "logos/ws.png",
+      "wsc": "logos/wsc.png",
+      "xbox": "logos/xbox.png",
+      "xbox360": "logos/xbox360.png",
+      "zxspectrum": "logos/zxspectrum.png"
+    }
+  },
+  "overlays": {
+    "platforms": {
+      "3do": {
+        "image": "overlays/3do.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "3ds": {
+        "image": "overlays/3ds.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "android": {
+        "image": "overlays/android.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "preserveAspectRatio": false,
+          "fit": "letterbox"
+        }
+      },
+      "arduboy": {
+        "image": "overlays/arduboy.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "c64": {
+        "image": "overlays/c64.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "cps1": {
+        "image": "overlays/cps1.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "cps2": {
+        "image": "overlays/cps2.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "cps3": {
+        "image": "overlays/cps3.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "dos": {
+        "image": "overlays/dos.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "dreamcast": {
+        "image": "overlays/dreamcast.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "fbneo": {
+        "image": "overlays/fbneo.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gamegear": {
+        "image": "overlays/gamegear.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gb": {
+        "image": "overlays/gb.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gba": {
+        "image": "overlays/gba.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gbc": {
+        "image": "overlays/gbc.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gc": {
+        "image": "overlays/gc.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "genesis": {
+        "image": "overlays/genesis.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "gw": {
+        "image": "overlays/gw.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "mame": {
+        "image": "overlays/mame.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "master": {
+        "image": "overlays/master.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "megaduck": {
+        "image": "overlays/megaduck.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "moonlight": {
+        "image": "overlays/moonlight.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "msx": {
+        "image": "overlays/msx.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "n64": {
+        "image": "overlays/n64.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "nds": {
+        "image": "overlays/nds.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "nes": {
+        "image": "overlays/nes.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "pico8": {
+        "image": "overlays/pico8.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "pokemini": {
+        "image": "overlays/pokemini.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "ps2": {
+        "image": "overlays/ps2.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "ps3": {
+        "image": "overlays/ps3.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "psp": {
+        "image": "overlays/psp.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "psx": {
+        "image": "overlays/psx.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "saturn": {
+        "image": "overlays/saturn.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "sega32x": {
+        "image": "overlays/sega32x.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "segacd": {
+        "image": "overlays/segacd.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "snes": {
+        "image": "overlays/snes.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "steam": {
+        "image": "overlays/steam.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "switch": {
+        "image": "overlays/switch.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "vectrex": {
+        "image": "overlays/vectrex.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "virtualboy": {
+        "image": "overlays/virtualboy.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "vita": {
+        "image": "overlays/vita.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "wii": {
+        "image": "overlays/wii.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "wiiu": {
+        "image": "overlays/wiiu.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "windows": {
+        "image": "overlays/windows.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "wsc": {
+        "image": "overlays/wsc.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "xbox": {
+        "image": "overlays/xbox.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      },
+      "xbox360": {
+        "image": "overlays/xbox360.png",
+        "config": {
+          "enabled": true,
+          "coverAspectRatio": 0.6666667,
+          "frameAspectRatio": 0.66796875
+        }
+      }
+    }
+  },
+  "credits": [
+    {
+      "asset": "RetroFlix",
+      "author": "GiuPhoenix"
+    },
+    {
+      "asset": "Platform / console folder icons",
+      "author": "GiuPhoenix",
+      "url": "https://ko-fi.com/giphoenix"
+    }
+  ]
+}

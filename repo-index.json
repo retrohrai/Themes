@@ -64,6 +64,39 @@
           "url": "https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions"
         }
       ]
+    },
+    {
+      "id": "retroflix",
+      "name": "Retroflix",
+      "author": "GiuPhoenix",
+      "description": "Theme inspired by Netflix and Smart TV interfaces.",
+      "version": 1,
+      "contains": [
+        "BACKGROUNDS",
+        "ICONS",
+        "LOGOS",
+        "OVERLAYS"
+      ],
+      "hasSettingsPreset": true,
+      "previewImageUrl": "https://raw.githubusercontent.com/retrohrai/Themes/main/retroflix/screenshot1.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/retrohrai/Themes/main/retroflix/screenshot1.png",
+        "https://raw.githubusercontent.com/retrohrai/Themes/main/retroflix/screenshot2.png"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/retrohrai/Themes/main/retroflix/retroflix.zip",
+      "sizeBytes": 86861475,
+      "sha256": "2c10788ed9b3e633dcfe0226d0a65f3076b4a6a746cd5d028afaeb578db6b4b2",
+      "credits": [
+        {
+          "asset": "RetroFlix",
+          "author": "GiuPhoenix"
+        },
+        {
+          "asset": "Platform / console folder icons",
+          "author": "GiuPhoenix",
+          "url": "https://ko-fi.com/giphoenix"
+        }
+      ]
     }
   ]
 }
