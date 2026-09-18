@@ -28,7 +28,7 @@
         },
         {
           "asset": "Collection label font (Splatink)",
-          "author": "Mâns Grebäck",
+          "author": "M\u00e2ns Greb\u00e4ck",
           "url": "https://www.dafont.com/splatink-2.font"
         }
       ]
@@ -95,6 +95,31 @@
           "asset": "Platform / console folder icons",
           "author": "GiuPhoenix",
           "url": "https://ko-fi.com/giphoenix"
+        }
+      ]
+    },
+    {
+      "id": "console-logos-redrawn",
+      "name": "Console Logos Professionally Redrawn",
+      "author": "Dan Patrick",
+      "description": "A giant collection of platform logos drawn digitally by hand by Dan Patrick.",
+      "version": 1,
+      "contains": [
+        "LOGOS"
+      ],
+      "hasSettingsPreset": false,
+      "previewImageUrl": "https://raw.githubusercontent.com/retrohrai/Themes/main/console-logos-redrawn/screenshot1.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/retrohrai/Themes/main/console-logos-redrawn/screenshot1.png"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/retrohrai/Themes/main/console-logos-redrawn/console-logos-redrawn.zip",
+      "sizeBytes": 3975619,
+      "sha256": "fb2f2ce966b0e9d32d0712c415e0d89f655cc05abfde072a156e5b154c17e51e",
+      "credits": [
+        {
+          "asset": "Platform logos, hand-redrawn in vector (Recommended Versions v2.1, Light - Just White)",
+          "author": "Dan Patrick",
+          "url": "https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions"
         }
       ]
     }
